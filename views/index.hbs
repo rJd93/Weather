@@ -1,0 +1,24 @@
+<div class='text'>
+<h1>How rainy is your city?</h1>
+{{!-- 
+<p>Temperature: {{temp}} K </p>
+<p>Wind Speed: {{win}}</p> --}}
+
+
+
+<form action = '/' method='POST'>
+   
+    <label for='location'>Location: </label>
+    <input type='text' name='location'>
+    <br>
+    <input type='submit' value='Have a look'>
+
+<ul>
+    {{#each data}}
+    <p>{{@key}} : {{this}}</p>
+    {{/each}}
+</ul> 
+
+</form>
+
+</div>

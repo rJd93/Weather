@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    background-color: ghostwhite;
+    background-image: url("./backgr.jpg");
+    background-size: cover;
+}
+
+.text {
+    color: ghostwhite;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+ul {
+    outline: none;
+    text-decoration: none;
+}
+
